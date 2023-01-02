@@ -1,0 +1,105 @@
+.topnav {
+    background-color: #333;
+    overflow: hidden;
+  }
+  
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+.section {
+    background-image: url("C:\Users\BADA\Desktop\laptop-g9cba7f6a8_640.jpg");
+}
+p{
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    font: 18px Arial, sans-serif;
+}
+
+.imageSlides {
+    display: none
+  }
+   
+  img {
+    margin: auto;
+    display: block;
+    width: 100%;
+  }
+   
+  /* Our main images-slideshow container */
+  .images-slideshow {
+    max-width: 612px;
+    position: relative;
+    margin: auto;
+  }
+   
+  /*Style for ">" next and "<" previous buttons */
+  .slider-btn{
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 8px 16px;
+    margin-top: -22px;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 50%;
+  }
+   
+  /* setting the position of the previous button towards left */
+  .previous {
+    left: 2%;
+  }
+   /* setting the position of the next button towards right */
+  .next {
+    right: 2%;
+  }
+   
+  /* On hover, adding a background color */
+  .previous:hover,
+  .next:hover {
+    color: rgb(255, 253, 253);
+    background-color: rgba(0, 0, 0, 0.8);
+  }
+  button{
+    color: gold;
+    margin-top: 3% ;
+    margin-left: 45%;
+    width: 120px;
+    height: 30px;
+  }
+  .backgroundd::before{
+
+  }
+  .backgroundd::before{
+    content: '';
+    background: url=('C:\Users\BADA\Desktop\yazid.jpg');*
+    background-repeat: no-repeat;
+    background-size: 70%;
+    width: 100%;
+    background-position: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    opacity: 0.20;
+
+  }
+  h1{
+    text-align: center;
+    position: relative;
+    color: rgb(245,245,245);
+  }
+
